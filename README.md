@@ -1,3 +1,16 @@
+Fork for zsh completion
+
+- zimfw: add this line in ~/.zimrc
+```
+zmodule yun-cloud/exercism-cli
+```
+
+modified by
+```
+mkdir -p shell/zsh/functions
+cp shell/exercism_completion.zsh shell/zsh/functions/_exercism
+```
+
 # Exercism Command-line Interface (CLI)
 
 [![Build Status](https://travis-ci.org/exercism/cli.svg?branch=master)](https://travis-ci.org/exercism/cli)
